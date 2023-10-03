@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-image: url("bg2.jpg");
+    background: color-mix(in srgb, color percentage, color percentage);
+    height: 110vh;
+
+
+}
+.sidebar{
+    background-color: rgb(66, 107, 91);
+    height: 110vh;
+    transition: transform 0.4s ease-in;
+    /* position: absolute; */
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li :hover{
+    color: white;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 32px;
+    color: beige;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 85%;
+    margin-left: 5px;
+}
+.info{
+    /* background-color: rgb(240, 93, 117); */
+    height: 55vh;
+    width: 70vw;
+    margin: 110px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.name{
+    color: rgb(214, 17, 132);
+}
+.devpic img{
+    height: 55vh;
+
+}
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.about{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: cursive;
+    color: blue;
+}
+
+.buttons{
+    padding-top: 12px;
+
+}
+
+.buttons button{
+    border-radius: 15px;
+    padding: 5px  10px;
+    color: white;
+    background-color: rgb(32, 115, 224);
+    font-size: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+
+}
+.buttons button:hover, .contactform button:hover{
+    background-color: white;
+    color: rgb(32, 115, 224);
+}
+
+.contactform {
+    font-family: monospace;
+    margin-left: 160px;
+    padding: 0 20px;
+
+}
+.contactform h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 10px;
+    padding-top: 80px;
+
+}
+.contactform button{
+    margin-top: 12px;
+    padding: 1px 6px;
+    border-radius: 5px;
+    background-color: rgb(32, 115, 224);
+    color: white;
+    font-size: 10px;
+}
+.c {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+.sidebarGo{
+    transform: translate(-153px,0px);
+    position: absolute;
+
+}
+.ham{
+    position: absolute;
+    cursor: pointer;
+    top: 7px;
+    left: 10px;
+}
+.cross{
+    margin-left: 100px;
+}
+.menu{
+    margin-left: 5px;
+
+
+}
+@media (max-width:819px){
+   
+.devpic{
+    display: none;
+}
+}
+#details h3{
+    text-align: center;
+    /* font-weight: 200; */
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    color: red;
+
+}
+#details{
+    background-color: rgb(157, 209, 255);
+    color: rgb(16, 16, 238);
+    border: 1px solid black;
+    border-radius: 10px;
+    max-height: 100px;
+    max-width: 300px ;
+    padding-inline: 15px;
+    margin-left: 35px;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    padding: 8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+#details span{
+    padding-bottom: 10px;
+    
+}
+.aboutme{
+    align-items: flex-start;
+    text-align: center;
+    padding-bottom: 20px ;
+  
+}
+.aboutme h1{
+    padding-bottom: 10px;
+}
+.more{
+    padding-top: 15px;
+}
+
+.service{
+    align-items: flex-start;
+    text-align: center;
+}
+.explore{
+    padding: 20px;
+    color: rgb(116, 2, 116);
+    font-size: large ;
+}
+.skills{
+    border: 2px solid rgb(80, 78, 78);
+    border-radius: 10px;
+    max-height: 150px;
+    
+}
+.skills div{
+    display: inline-block;
+    align-items: flex-start;
+    margin-left: 20px;
+
+
+}.skills li{
+    list-style: none;
+    padding: 3px;
+
+}
+.skills span{
+    padding: 20px;
+    font-weight: 650;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.blog{
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    margin: 200px;
+}
+
